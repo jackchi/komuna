@@ -1,0 +1,55 @@
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav#navbar {
+	background-color: #d6d6d6;
+	padding-top: 2%;
+}
+
+
+
+/* Compelling Komuna
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#compelling {
+	background-color: #d6d6d6; 
+	background-image: url('../images/house.svg'); 
+	background-repeat: no-repeat; 
+	background-position: center;
+}
+
+
+/* 1 For 1 Program
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#one-for-one-header {
+	margin-bottom: 2%
+}
+
+ul#oneforone {
+	text-align: left;
+}
+
+/* Free Quote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#freequote {
+	background-color: #d3d3d3
+}
+
+button#email {
+	margin: 2em;
+}
+
+/* Media
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.media {
+	margin: 2em;
+}
+div#media {
+	padding: 3%;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#footer {
+	background-color: #d3d3d3;
+	padding: 3%;
+}

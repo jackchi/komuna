@@ -53,7 +53,9 @@
     height: 165px;
     background-color: #d6d6d6;  
   }
-
+  .one-half {
+    width: 48%;
+  }
 }
 
 /* Larger than tablet */
