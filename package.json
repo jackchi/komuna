@@ -1,0 +1,20 @@
+{
+  "name": "komuna-website",
+  "version": "0.0.1",
+  "description": "Komuna Marketing Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skeleton.js",
+    "browsersync",
+    "gulp"
+  ],
+  "author": "Jack Chi <jack@smartthings.com> (http://www.smartthings.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0"
+  }
+}

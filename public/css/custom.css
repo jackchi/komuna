@@ -1,0 +1,120 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  max-width: 1000px; 
+}
+.navbar {
+  display: none;
+}
+
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading {
+  margin-bottom: 2rem;
+}
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-align-left {
+  text-align: left
+}
+
+.persona-icon {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Larger than phone */
+@media (min-width: 550px) {
+  /* Navbar */
+  .navbar {
+
+  }
+  .navbar-title {
+
+  }
+  .section {
+    padding: 12rem 0 12rem 0;
+  }
+  .mission {
+    padding-bottom: 12rem;
+    text-align: center;
+    height: 165px;
+    background-color: #d6d6d6;  
+  }
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  /* Navbar */
+  .navbar {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+  }
+  .navbar > .container {
+      width: 100%; 
+  }
+  .navbar-list {
+      list-style: none;
+      margin-bottom: 0;
+  }
+  .navbar-item {
+      position: relative;
+      float: right;
+      margin-bottom: 0; 
+  }
+  .navbar-title {
+    line-height: 1.40
+  }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
+}
+
+/* Larger than Desktop */ 
+@media (min-width: 1000px) {
+  .section {
+    padding: 10rem 0 19rem;
+  }
+  .mission {
+    padding: 12rem 25rem 8rem 25rem;
+  }
+  .mission-heading {
+    font-size: 3.0rem;
+  }
+  .whatwedo {
+
+  }
+}
